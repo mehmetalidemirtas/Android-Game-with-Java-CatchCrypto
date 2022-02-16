@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity2">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="336dp"
+        android:layout_height="432dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="4"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="5"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="6"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:onClick="pump"
+            app:srcCompat="@drawable/pump" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="4"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="5"
+            android:onClick="dump"
+            app:srcCompat="@drawable/dump" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="6"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="4"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="5"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="6"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="4"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="5"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="6"
+            android:onClick="pump"
+            app:srcCompat="@drawable/pump" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="3"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="4"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="5"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="6"
+            android:onClick="increaseScore"
+
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:onClick="dump"
+            app:srcCompat="@drawable/dump" />
+
+        <ImageView
+            android:id="@+id/imageView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="2"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="3"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="4"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="5"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="6"
+            android:onClick="increaseScore"
+
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="6"
+            android:layout_column="2"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="6"
+            android:layout_column="3"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="6"
+            android:layout_column="4"
+
+            android:onClick="pump"
+            app:srcCompat="@drawable/pump" />
+
+        <ImageView
+            android:id="@+id/imageView49"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="6"
+            android:layout_column="5"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="6"
+            android:layout_column="6"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="7"
+            android:layout_column="1"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="7"
+            android:layout_column="2"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="7"
+            android:layout_column="3"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="7"
+            android:layout_column="4"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="7"
+            android:layout_column="5"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView57"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="7"
+            android:layout_column="6"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView58"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="8"
+            android:layout_column="0"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView59"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="8"
+            android:layout_column="1"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="8"
+            android:layout_column="2"
+            android:onClick="dump"
+            app:srcCompat="@drawable/dump" />
+
+        <ImageView
+            android:id="@+id/imageView61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="8"
+            android:layout_column="3"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView62"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="8"
+            android:layout_column="4"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView63"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="8"
+            android:layout_column="5"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+
+        <ImageView
+            android:id="@+id/imageView64"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="8"
+            android:layout_column="6"
+            android:onClick="increaseScore"
+            app:srcCompat="@drawable/bnb" />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="244dp"
+        android:layout_height="56dp"
+        android:fontFamily="@font/bungee_inlinee"
+        android:text="Time : "
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.492" />
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="207dp"
+        android:layout_height="61dp"
+        android:fontFamily="@font/bungee_inlinee"
+        android:text="Score : 0"
+        android:textAlignment="center"
+        android:textColor="#F44336"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+        app:layout_constraintVertical_bias="0.476" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
